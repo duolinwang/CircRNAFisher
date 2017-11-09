@@ -44,11 +44,7 @@ uc010nxr.1	chr1	+	11873	14409	11873	11873	3	11873,12645,13220,	12227,12697,14409
 ```
 This file is for argument "-ep <knownexons>" in our pipeline
 
-Alternatively, you can download all pre-built indexes,reference sequences and all other files needed from our web site.
-(on cluster:bowties indexes: /home/deepduoduo/projects/index/ /datamount/datas/deepduoduo/circRNA/mypipeline/mk_transcript_align/; 
-hg19 sequnces /share/apps/hg19_chr. Their index_prefixes are "hg19" for hg19 genome and "UCSC_trans" for UCSC transcripts.
-knownexons:/datamount/datas/deepduoduo/circRNA/hg19/UCSC_gene_exons.txt)
-
+You can find the known exon annotations in hg19/UCSC_gene_exons.txt;
 -----------------
 ### Installation 
 
