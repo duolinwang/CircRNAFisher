@@ -23,15 +23,15 @@ To take advantage of the built-in support for the Bowtie 2 alignment program and
 Preparing Reference Sequences
 You have to download sequences of reference genome from [UCSC Genome Bioinformatics](http://hgdownload.soe.ucsc.edu/downloads.html) and sequences of reference transcripts from [UCSC Table Browser]( http://genome.ucsc.edu/cgi-bin/hgTables?command=start).
 
-Put all downloaded fasta files of reference genome into a folder, one file for each chromosome, filename prefix is its corresponding chromosome, end with ".fa", for instance chr1.fa. This directory is for argument "-refseq <seq> " in our pipeline.
+Put all downloaded fasta files of reference genome into a folder, one file for each chromosome, filename prefix is its corresponding chromosome, ended with ".fa", for instance chr1.fa. This directory is for argument "-refseq <seq> " in the pipeline.
 
 Bowtie2 indexes
 Bowtie2 indexes of whole genome and reference transcripts are required. You can download pre-built bowtie2 indexes for whole genome from http://bowtie-bio.sourceforge.net/bowtie2 and buid indexes of reference transcripts by running:
 ```
 bowtie2-build -f reference_transcripts_seq.fa bt2-idx-trans.
 ```
-reference_transcripts_seq.fa is the reference transcripts in fasta format,which you already have from the previous step.
-These indexes are for arguments "-xg <bt2-idx>" and "-xt <bt2-idx-trans>" in our pipeline
+reference_transcripts_seq.fa is the reference transcripts in fasta format, which you already have from the previous step.
+These indexes are for arguments "-xg <bt2-idx>" and "-xt <bt2-idx-trans>" in the pipeline
 
 Annotated exons
 A file containing positional information for annotated exons is required.
@@ -42,9 +42,7 @@ uc001aaa.3	chr1	+	11873	14409	11873	11873	3	11873,12612,13220,	12227,12721,14409
 uc010nxr.1	chr1	+	11873	14409	11873	11873	3	11873,12645,13220,	12227,12697,14409,	uc010nxr.1
 ...
 ```
-This file is for argument "-ep <knownexons>" in our pipeline
-
-You can find the known exon annotations in hg19/UCSC_gene_exons.txt;
+This file is for argument "-ep <knownexons>" in our pipeline; You can also find the known exon annotations in hg19/UCSC_gene_exons.txt;
 -----------------
 ### Installation 
 
@@ -53,7 +51,7 @@ You can find the known exon annotations in hg19/UCSC_gene_exons.txt;
 ### Usage
 
 * You can run CircRNAFisher step by step or put all the following commands into one file after all parameters have been set then run it together.
-* If you run CircRNAFisher step by step, you can continue from any step you stoped.
+* If you run CircRNAFisher step by step, you can continue from any step you stopped.
 -----------------
 ### Commands & Parameters
 
