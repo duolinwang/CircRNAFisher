@@ -258,7 +258,7 @@ OPTIONS
 OUTPUT
    file "./output/backsplice_passcutoff.txt".
 ```
-The output file "peak_fdr_passcutoff.txt" contains 16 columns, for example:
+The output file "backsplice_passcutoff.txt" contains 16 columns and seperated by tab "\t", for example:
 ```
 chr8,142264087,142264728 344 128 216 216 0.0305755870265544 0 0.000000e+00 -1.09,0.20,255.00 uc010meq.1 1 138 82 142264087 142264728 SLC45A4
 
