@@ -281,6 +281,7 @@ The columns respectively represent:
 16 the symbol of UCSC genes involved in the circRNA (SLC45A4);
 ```
 -----------------
-Authors
-Acknowledgements
-Licens
+Please cite our paper:
+Jia GY, Wang DL, Xue M, Liu YW, Pei YC, Yang YQ, Xu JM, Liang YC, Wang P. CircRNAFisher: a systematic computational approach for de novo circular RNA identification. Acta Pharmacol Sin. 2019 Jan;40(1):55-63. doi: 10.1038/s41401-018-0063-1.
+
+
