@@ -258,9 +258,27 @@ OPTIONS
 OUTPUT
    file "./output/peak_fdr_passcutoff.txt".
 ```
-One example of peak_fdr_passcutoff.txt is shown as in Table 1.
-![Screenshot](Table1.jpg)
-The columns respectively represent: 1 the positions of circular splice sites on the genome; 2 the number of junction reads; 3 the number of discordant paired-end reads; 4 statistics of alignments, consist of averaged alignment scores, averaged mismatch numbers and mapping quality scores; 5 id of UCSC known genes involved in each circRNA; 6 number of consistent boundaries between circRNA and known exon annotations; 7 potential exon starts of circRNA; 8 potential exon ends of circRNA; 9 symbol of UCSC known genes involved in each circRNA. If there are no overlapping known genes, column 5 is set as “None” and leave columns 6, 7, 8, 9, 10 empty.
+The output file "peak_fdr_passcutoff.txt" contains 16 columns, for example:
+'''
+chr8,142264087,142264728	344	128	216	216	0.0305755870265544	0	0.000000e+00	-1.09,0.20,255.00	uc010meq.1	1	138	82	142264087	142264728	SLC45A4
+'''
+The columns respectively represent: 
+1 the circRNA splice site position (chr8,142264087,142264728);
+2 the sum of junction reads and discordant paird-end reads (344);
+3 the number of junction reads (128);
+4 the discordant paired-end reads (averged by circRNA match the discordant reads pair) (216); 
+5 the raw num of discordant paired-end reads (216);
+6 the expected num of reads for the peak (0.0305755870265544);
+7 the p-value before adjusted (0);
+8 the adjusted p-value (q-value) (0.000000e+00);
+9 the alignment statistics of the circRNA, consist of averaged alignment score(-1.09), averaged mismatch number(0.20), and averaged mapping quality score(255.00);
+10 the id of UCSC know genes involved in the circRNA(uc010meq.1);
+11 the number of cosistent boundaries between circRNA splice sites and known exon annotations (1);
+12 the overlapping exon length (138);
+13 the overlapping CDS length (82);
+14 the potential exon start positions seperated by "," (142264087); 
+15 the potential exon end positions seperated by "," (142264728);
+16 the symbol of UCSC genes involved in the circRNA (SLC45A4);
 
 -----------------
 Authors
