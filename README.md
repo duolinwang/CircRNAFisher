@@ -259,9 +259,9 @@ OUTPUT
    file "./output/peak_fdr_passcutoff.txt".
 ```
 The output file "peak_fdr_passcutoff.txt" contains 16 columns, for example:
-'''
+```
 chr8,142264087,142264728	344	128	216	216	0.0305755870265544	0	0.000000e+00	-1.09,0.20,255.00	uc010meq.1	1	138	82	142264087	142264728	SLC45A4
-'''
+
 The columns respectively represent: 
 1 the circRNA splice site position (chr8,142264087,142264728);
 2 the sum of junction reads and discordant paird-end reads (344);
@@ -279,7 +279,7 @@ The columns respectively represent:
 14 the potential exon start positions seperated by "," (142264087); 
 15 the potential exon end positions seperated by "," (142264728);
 16 the symbol of UCSC genes involved in the circRNA (SLC45A4);
-
+```
 -----------------
 Authors
 Acknowledgements
