@@ -256,7 +256,7 @@ OPTIONS
         Show help information.
 
 OUTPUT
-   file "./output/peak_fdr_passcutoff.txt".
+   file "./output/backsplice_passcutoff.txt".
 ```
 The output file "peak_fdr_passcutoff.txt" contains 16 columns, for example:
 ```
