@@ -258,6 +258,10 @@ OPTIONS
 OUTPUT
    file "./output/peak_fdr_passcutoff.txt".
 ```
+One example of peak_fdr_passcutoff.txt is shown as in Table 1.
+![Screenshot](.jpeg)
+The columns respectively represent: 1 the positions of circular splice sites on the genome; 2 the number of junction reads; 3 the number of discordant paired-end reads; 4 statistics of alignments, consist of averaged alignment scores, averaged mismatch numbers and mapping quality scores; 5 id of UCSC known genes involved in each circRNA; 6 number of consistent boundaries between circRNA and known exon annotations; 7 potential exon starts of circRNA; 8 potential exon ends of circRNA; 9 symbol of UCSC known genes involved in each circRNA. If there are no overlapping known genes, column 5 is set as “None” and leave columns 6, 7, 8, 9, 10 empty.
+
 -----------------
 Authors
 Acknowledgements
