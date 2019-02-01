@@ -266,7 +266,7 @@ The columns respectively represent:
 1 the circRNA splice site position (chr8,142264087,142264728);
 2 the sum of junction reads and discordant paird-end reads (344);
 3 the number of junction reads (128);
-4 the discordant paired-end reads (averged by circRNA match the discordant reads pair) (216); 
+4 the normalized number of discordant paired-end reads (216); 
 5 the raw num of discordant paired-end reads (216);
 6 the expected num of reads for the peak (0.0305755870265544);
 7 the p-value before adjusted (0);
