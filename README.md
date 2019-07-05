@@ -211,7 +211,7 @@ OPTIONS
         Show help information.
 
 OUTPUT
-    file "re_unique_spliceplot_withstand.txt".
+    file "re_spliceplot_withstand.txt".
 ```
 
 4 Calculating p-values and FDRs for candidate circRNAs.
