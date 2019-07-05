@@ -233,7 +233,7 @@ Show help information.
 
 =head1 OUTPUT
 
-This program will generate more exact counts for junction reads in file "re_unique_spliceplot_withstand.txt".
+This program will generate more exact counts for junction reads in file "re_spliceplot_withstand.txt".
 
 =cut
 
